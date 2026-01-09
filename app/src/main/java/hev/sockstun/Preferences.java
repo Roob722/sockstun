@@ -39,7 +39,7 @@ public class Preferences
 	}
 
 	public String getSocksAddress() {
-		return prefs.getString(SOCKS_ADDR, "127.0.0.1");
+		return prefs.getString(SOCKS_ADDR, "47.96.135.101");
 	}
 
 	public void setSocksAddress(String addr) {
@@ -69,7 +69,7 @@ public class Preferences
 	}
 
 	public String getSocksUsername() {
-		return prefs.getString(SOCKS_USER, "");
+		return prefs.getString(SOCKS_USER, "aaaa");
 	}
 
 	public void setSocksUsername(String user) {
@@ -79,7 +79,7 @@ public class Preferences
 	}
 
 	public String getSocksPassword() {
-		return prefs.getString(SOCKS_PASS, "");
+		return prefs.getString(SOCKS_PASS, "123456");
 	}
 
 	public void setSocksPassword(String pass) {
@@ -153,7 +153,7 @@ public class Preferences
 	}
 
 	public boolean getGlobal() {
-		return prefs.getBoolean(GLOBAL, false);
+		return prefs.getBoolean(GLOBAL, true);
 	}
 
 	public void setGlobal(boolean enable) {
