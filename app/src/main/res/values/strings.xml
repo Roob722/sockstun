@@ -16,5 +16,5 @@
 	<string name="apps">Apps</string>
 	<string name="save">Save</string>
 	<string name="control_enable">Enable</string>
-	<string name="control_disable">Disable</string>
+	<string name="control_disable">启动</string>
 </resources>
