@@ -18,7 +18,7 @@ public class Preferences
 {
 	public static final String PREFS_NAME = "SocksPrefs";
 	public static final String SOCKS_ADDR = "SocksAddr";
-	public static final String SOCKS_UDP_ADDR = "SocksUdpAddr";
+	// public static final String SOCKS_UDP_ADDR = "SocksUdpAddr";
 	public static final String SOCKS_PORT = "SocksPort";
 	public static final String SOCKS_USER = "SocksUser";
 	public static final String SOCKS_PASS = "SocksPass";
@@ -89,7 +89,7 @@ public class Preferences
 	}
 
 	public String getDnsIpv4() {
-		return prefs.getString(DNS_IPV4, "8.8.8.8");
+		return prefs.getString(DNS_IPV4, "223.5.5.5");
 	}
 
 	public void setDnsIpv4(String addr) {
