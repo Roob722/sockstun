@@ -2,7 +2,7 @@
 <resources>
 	<string name="app_name">SocksTun</string>
 	<string name="socks_addr">Socks Address:</string>
-	<string name="socks_udp_addr">Socks UDP Address:</string>
+	<!-- <string name="socks_udp_addr">Socks UDP Address:</string> -->
 	<string name="socks_port">Socks Port:</string>
 	<string name="socks_user">Socks Username:</string>
 	<string name="socks_pass">Socks Password:</string>
@@ -15,6 +15,6 @@
 	<string name="global">Global</string>
 	<string name="apps">Apps</string>
 	<string name="save">Save</string>
-	<string name="control_enable">Enable</string>
-	<string name="control_disable">启动</string>
+	<string name="control_enable">启动</string>
+	<string name="control_disable">停止</string>
 </resources>
